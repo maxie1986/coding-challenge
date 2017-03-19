@@ -1,0 +1,22 @@
+{
+  "name": "maxie1986/soft-excersice",
+  "description": "Exercise",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9",
+    "maxie1986/framework": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/maxie1986/framework"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "App\\Models\\": "app/models/",
+      "App\\Controllers\\": "app/controllers/"
+    }
+  }
+}
