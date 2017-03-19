@@ -17,8 +17,14 @@ Instructions to Run example
 * Install Composer 
 * run "composer install" 
 * edit db.global.php and set db connection parameters
+* run the file /database/schema.mysql.sql to include tables and demo  data
 
 # Usage 
+
+Once installed and configured go to /localhost/public/index.php/books and it will display the demo data using ajax to paginate. It can be filtered by using the search textbox
+
+# Framework Usage
+
 * Controllers are defined in /app/controllers and they must extend Framework\Base\Controller
 * Models are defined in /app/models and they must extend Eloquent model Illuminate\Database\Eloquent\Model For more info https://github.com/illuminate/database
 
